@@ -1,0 +1,97 @@
+body{
+	background-color:#000;
+	overflow-x: hidden;
+	font-family: 'Abel', sans-serif;
+
+}
+#magikarp{
+	background: url(../img/bg.jpg); 
+	height:100%;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-position: bottom center;
+	min-height: 100%;
+	min-width: 100%;
+	box-sizing: content-box;
+	position:relative;
+	left:0;
+	top:0;
+	color:#fff;
+	background-repeat:no-repeat;
+}
+
+
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+color: #000;
+background-color: #FFD700;
+border-color: #6F5E00;
+}
+
+#charmander{
+	text-align:center;
+}
+
+#mission h1{
+	font-size: 50px;
+	color:#fff;
+}
+
+
+p{
+	color:grey;
+	font-size:20px;
+}
+
+hr{
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(255,215,0,0.5);
+    
+}
+
+#bidoof{
+	border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 15px 0.75px white;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+ul.social-buttons {
+    margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: gold;
+    background-color: #222;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #B20000;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+    outline: 0;
+}
+
+footer{
+	text-align:center;
+	color:#fff;
+}
